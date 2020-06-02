@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>toDoList</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<h1>WORK TO-DOS</h1>
+		<h2>Enter text into the input field to your list(maximum of 28 characters)</h2>
+		<h3>Click the item to mark it as complete</h3>
+		<h4>Click the "X" to remove the item from your list</h4>
+		<form id="form">
+			<input type="text" maxlength="28" name="" placeholder="New Item" id="input">
+			<span onclick="newItem()" class="addBtn"><i class="fa fa-pencil"></i></span>
+		</form>
+		<ul id="ul">
+			<li>Dont panic</li>
+			<li>Edit meeting</li>
+			<li>Go over %Ages</li>
+		</ul>
+		
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
